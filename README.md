@@ -13,7 +13,7 @@ Database prayer project.
 
 
 ## Getting Started
-I appreciate you coming by to this page to look at this project!
+I appreciate you coming by to this page to look at this project! First Look at the ER Script and ER Diagram file, and then dump.
 
 ### Prerequisites
 -MySqlWorkBench
