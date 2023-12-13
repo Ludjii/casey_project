@@ -9,8 +9,8 @@ Database prayer project.
   - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Database Structure](#database-structure)
-- [Sample Data](#sample-data)
-- [Additional Sections](#additional-sections)
+
+
 
 ## Getting Started
 I appreciate you coming by to this page to look at this project!
