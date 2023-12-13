@@ -1,0 +1,35 @@
+# Modify this code to update the DB schema diagram.
+# To reset the sample schema, replace everything with
+# two dots ('..' - without quotes).
+
+Prayer
+-
+PrayerID PK int
+Body string INDEX
+Scripture string
+tags NULL string
+likes NULL int
+saves NULL int
+coverImage NULL string
+audio NULL string
+human NULL string
+AI NULL string
+
+
+User
+-
+UserID PK int
+PrayerID int FK >- Prayer.PrayerID
+
+Likes
+-
+LikeID PK int
+UserID int FK >- User.UserID
+PrayerID int FK >- Prayer.PrayerID
+Quantity int
+
+Saves
+----
+SavesID PK int
+NAME varchar(200) UNIQUE
+PrayerID int FK >- Prayer.PrayerID
